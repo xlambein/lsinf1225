@@ -1,3 +1,16 @@
+--- Exo 1 ---
+INSERT INTO Client VALUES ('F011','Poncelet','17, Clos des Erables','Toulouse','B2',0);
+INSERT INTO Client VALUES ('K729','Neuman','40, r. Bransart','Toulouse','',0);
+
+INSERT INTO Commande VALUES (30186,'C400','2009-01-02');
+INSERT INTO Commande VALUES (30188,'B512','2009-01-02');
+
+INSERT INTO Detail VALUES (30184,'PA45',20);
+INSERT INTO Detail VALUES (30188,'PA45',22);
+
+INSERT INTO Produit VALUES ('PA45','Pointe Acier 45 (20K)',105,580);
+INSERT INTO Produit VALUES ('PH222','Pl. Hetre 200*20*2',230,782);
+
 --- Exo 2 ---
 SELECT * FROM Client WHERE localite='Namur';
 
